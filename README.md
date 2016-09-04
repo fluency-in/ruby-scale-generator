@@ -1,4 +1,4 @@
-# Scale Generator
+# Ruby: Scale Generator
 
 Write a program that can generate musical scales, given a starting note and a set of intervals.
 
@@ -67,7 +67,27 @@ Here is a table of pitches with the names of their interval distance from the to
 
 
 
+
+The tests use the Minitest testing framework. To install it run the command:
+
+    gem install minitest
+
+Run the tests with the `ruby` command:
+
+    ruby scale_generator_test.rb
+
+## Resources
+
+If you have never used Minitest, check out [Intro to TDD][tdd] tutorial from Jumpstart Lab.
+
+[tdd]: http://tutorials.jumpstartlab.com/topics/testing/intro-to-tdd.html
+
+# Source
+
 This exercise is from the [Ruby][ruby] track on [Exercism][exercism]
 
 [exercism]: http://exercism.io
 [ruby]: http://exercism.io/languages/ruby
+
+
+
